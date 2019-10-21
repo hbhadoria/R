@@ -21,8 +21,12 @@ rm(list = ls(all.names = TRUE))
 
 
 #After first run or if getting NAs please follow the steps below:
-#1.paste the location of BGS_Cache folder in string format
+
+#1.paste the location of BGS_Cache folder in string format with back slashes replaced by front slashes
+#e.g. unlink('location of BGS_Cache', recursive = TRUE)
+
 #2.Uncomment the command below(i.e. remove the #)
+
 #unlink('C:/Users/HP/Documents/BGS_Cache', recursive = TRUE)
 
 
