@@ -22,8 +22,8 @@ rm(list = ls(all.names = TRUE))
 
 #After first run or if getting NAs please follow the steps below:
 #1.paste the location of BGS_Cache folder in string format
-#2.Uncomment the command 
-unlink('C:/Users/HP/Documents/BGS_Cache', recursive = TRUE)
+#2.Uncomment the command below(i.e. remove the #)
+#unlink('C:/Users/HP/Documents/BGS_Cache', recursive = TRUE)
 
 
 #Comment the below installation out after first run to avoid installing the package again
